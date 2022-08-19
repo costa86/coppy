@@ -1,22 +1,25 @@
 # Coppy
 
-Send standard output (stdout) to clipboard"
+Send standard output (stdout) to your clipboard. Once the program is executed, the resulted output will be saved to your clipboard (control + v).
 
 ## 1. Examples
 
-1. Create a repository
-2. List all repositories
-3. Delete a repository
+### From echo
+
+    echo hello | coppy
+
+### From file (all contents)
+    cat some_file.txt | coppy
+
+### From file (some lines). In this case, the last 3 lines
+ 
+    tail -n 3 some_file.txt | coppy
 
 
-## 3. Instalation
-### 3.1 Cargo
+## 2. Instalation
+### 2.1 Cargo
 
-    cargo install autogit
+    cargo install coppy
 
-### 3.2 Linux binary
-Download this [file](https://github.com/costa86/autogit/blob/main/autogit) and make sure you've granted executable permissions to it
-
-    ./autogit
-
-## 4. Screenshots
+### 2.2 Linux binary
+Download this [file](https://github.com/costa86/autogit/blob/main/coppy) and make sure you've granted executable permissions to it
