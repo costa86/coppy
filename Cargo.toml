@@ -1,0 +1,12 @@
+[package]
+name = "copy"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Send standard output (stdout) to clipboard"
+keywords = ["clipboard", "copy", "cli", "stdout"]
+repository = "https://github.com/costa86/autogit"
+authors = ["Lorenzo Costa <costa86@zoho.com>"]
+
+[dependencies]
+copypasta = "0.8.1"
