@@ -21,5 +21,9 @@ Send standard output (stdout) to your clipboard. Once the program is executed, t
 
     cargo install coppy
 
-### 2.2 Linux binary
-Download this [file](https://github.com/costa86/coppy/blob/main/coppy) and make sure you've granted executable permissions to it
+### 2.2 Binary/executable*
+
+|Linux|Windows
+|-|-|
+|[coppy](https://github.com/costa86/coppy/blob/main/coppy)|[coppy.exe](https://github.com/costa86/coppy/blob/main/coppy.exe)| 
+*Make sure you've granted executable permissions to it
