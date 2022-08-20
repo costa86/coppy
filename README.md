@@ -26,4 +26,5 @@ Send standard output (stdout) to your clipboard. Once the program is executed, t
 |Linux|Windows
 |-|-|
 |[coppy](https://github.com/costa86/coppy/blob/main/coppy)|[coppy.exe](https://github.com/costa86/coppy/blob/main/coppy.exe)| 
+
 *Make sure you've granted executable permissions to it
