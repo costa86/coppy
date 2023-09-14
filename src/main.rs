@@ -22,6 +22,9 @@ fn main() {
             }
         }
     }
+    if &result[..1] == "\n" {
+        result.remove(0);
+    }
     set_clipboard(&result);
     println!("Clipboard updated");
 }
